@@ -1,0 +1,24 @@
+<html ng-app="eu">
+	<head>
+		<script type="text/javascript" src="angular.min.js"></script>
+		<script type="text/javascript" src="angular_page.js"></script>
+		<script type="text/javascript" src="Configs.js"></script>
+	</head>
+	<body ng-controller="euControlo">
+		<div>
+			{{texto}}
+		</div>
+		
+		
+		<table>
+			<tr ng-repeat="l in lista">
+				<td>{{l.campo1}}</td>
+				<td>{{l.campo2}}</td>
+				<td>{{l.campo3}}</td>
+			</tr>
+		</table>
+	</body>
+	
+	
+
+</html>
